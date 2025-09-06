@@ -20,7 +20,13 @@ const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]
 
 
 export const metadata = {
-  title: "MSR DevXpert",
+  title: {
+    default: "MSR DevXpert",
+    template: "%s - MSR DevXpert",
+    twitter:{
+      card: "summary_large_image",
+    }
+  },
   description: "Top IT Solutions in Kolkata: Web & App Development by Experts",
   keywords: ["web development", "app development", "Kolkata", "MSR DevXpert", "IT solutions"],
   openGraph: {

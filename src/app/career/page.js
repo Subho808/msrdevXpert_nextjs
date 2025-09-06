@@ -5,7 +5,9 @@ import Head from "next/head";
 import { Button } from 'react-bootstrap';
 import "../styles/main.css"; // Import your global CSS
 // import './Career.css';
-
+export const metadata = {
+  title:"Career"
+}
 const Career = () => {
     return (
         <>

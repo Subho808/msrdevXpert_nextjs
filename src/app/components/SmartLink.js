@@ -11,7 +11,7 @@ export default function SmartLink({ href, children, ...rest }) {
   };
 
   return (
-    <Link href={href} {...rest} onClick={handleClick}>
+    <Link href={href}  {...rest} onClick={handleClick}>
       {children}
     </Link>
   );

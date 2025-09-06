@@ -3,7 +3,9 @@ import Head from "next/head";
 
 import { Facebook, Twitter, Instagram } from 'react-bootstrap-icons';
 import {FaXTwitter,FaLinkedinIn} from "react-icons/fa6";
-
+export const metadata = {
+  title:"Team"
+}
 const Team = () => {
     return (
         <>

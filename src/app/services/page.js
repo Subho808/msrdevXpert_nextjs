@@ -51,7 +51,9 @@ const services = [
   },
 ];
 
-
+export const metadata = {
+  title:"Services"
+}
 const Services = () => {
   return (
     <>

@@ -7,6 +7,9 @@ import "../styles/main.css";
 import HandshakeOutlinedIcon from "@mui/icons-material/HandshakeOutlined";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 
+export const metadata = {
+  title:"About"
+}
 const About = () => {
   return (
     <>
