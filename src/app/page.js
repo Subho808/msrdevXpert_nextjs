@@ -75,7 +75,7 @@ export default function Home() {
     <>
 <Head>
   <title>MSR DevXpert | Full-Stack Web & Mobile App Development in India</title>
-  <link rel="manifest" href="/manifest.webmanifest" />
+  {/* <link rel="manifest" href="/manifest.webmanifest" /> */}
 <meta name="theme-color" content="#ff6600" />
 
   <meta name="description" content="MSR DevXpert is a full-stack web and mobile development company offering custom solutions with React, Java, Spring Boot, and more. Partner with us to bring your digital ideas to life." />
