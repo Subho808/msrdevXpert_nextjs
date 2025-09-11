@@ -32,11 +32,11 @@ export const metadata = {
   openGraph: {
     title: "MSR DevXpert - Best Web & App Development",
     description: "Leading IT service provider for businesses in Kolkata and beyond.",
-    url: "https://yourdomain.com",
+    url: "https://msrdevxpert.com/",
     siteName: "MSR DevXpert",
     images: [
       {
-        url: "https://yourdomain.com/images/og-banner.jpg",
+        url: "https://msrdevxpert.com//images/og-banner.jpg",
         width: 1200,
         height: 630,
       },
@@ -48,7 +48,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "MSR DevXpert",
     description: "We build websites and apps that grow your business.",
-    site: "@yourtwitter",
+    site: "https://x.com/MSR_DevXpert",
   },
    icons: {
     icon: [
@@ -58,6 +58,7 @@ export const metadata = {
     ],
     apple: "/apple-touch-icon.png",
   },
+   manifest: "/site.webmanifest",
 };
 
 
